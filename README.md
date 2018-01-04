@@ -2,8 +2,8 @@
 
 [![Build Status](https://travis-ci.org/parodotdev/orpa-node-red.svg?branch=master)](https://travis-ci.org/parodotdev/orpa-node-red)
 
-## Quick Start
-Refer to  [orpa-setup](parodotdev/orpa-setup) project for more details.
+## Getting started
+Refer to  [orpa-setup](https://github.com/parodotdev/orpa-setup) project for more details.
 
 ## Development setup
 
