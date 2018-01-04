@@ -8,8 +8,10 @@ Refer to  [orpa-setup](https://github.com/parodotdev/orpa-setup) project for mor
 ## Development setup
 
 ### Requirements
-node: v8.9.x LTS  
-npm 5.5.1
+**node**: v8.9.x LTS  
+**npm**: 5.5.1
+
+**Note**: The development should be fine with nodejs versions 6,9 as well. Although, this is not actively tested.
 ### Setup orpa-node-red
 * Create a working directory for OPAL node-red & nodes
 ```
@@ -19,9 +21,11 @@ mkdir <WORKING_DIR>
 ```
 cd <WORKING_DIR>
 git clone https://github.com/parodotdev/orpa-node-red.git
+cd orpa-node-red
 npm install
-npm build
-# Install any required OPAL nodes as shown in the setup OPAL nodes section before starting the node-red instance
+npm run build
+# Install any required OPAL nodes as shown in the setup  
+# OPAL nodes section before starting the node-red instance
 npm run start
 ```
 ### Setup OPAL nodes
